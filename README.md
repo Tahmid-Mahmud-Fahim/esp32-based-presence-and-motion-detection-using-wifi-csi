@@ -8,7 +8,7 @@
 
 > Final project of **EEE 416: Microprocessor and Embedded Systems Laboratory** (January 2026), Department of Electrical and Electronic Engineering, Bangladesh University of Engineering and Technology (BUET). Section B1, Group 06.
 
-<!-- Demo video: add your YouTube link here, e.g. [Watch the demo](https://youtu.be/XXXX) -->
+**[Demo video](https://youtu.be/RaYnB9Vjulw)** · **[Project report](docs/report/EEE416-Jan2026-B1-06-Report.pdf)** · **[Poster](docs/poster/EEE416-Jan2026-B1-06-Poster.pdf)** · **[Presentation slides](docs/presentation/EEE416-Jan2026-B1-06-Presentation-Slides.pdf)** · **[Presentation video](https://youtu.be/lF70XW1OmaM)**
 
 <p align="center">
   <img src="docs/images/system_architecture.png" alt="Overall system architecture" width="900">
@@ -66,7 +66,7 @@ Wi-Fi **Channel State Information** describes how the radio channel changes the 
 
 ## 2. Results at a glance
 
-All numbers below are **offline** results on windows from a subject who was never used for training or model selection (subject **S03**). The live dashboard's accuracy was not separately measured. The complete analysis will be in the project report ([`docs/report/`](docs/report/), to be added).
+All numbers below are **offline** results on windows from a subject who was never used for training or model selection (subject **S03**). The live dashboard's accuracy was not separately measured. The complete analysis is in the [project report](docs/report/EEE416-Jan2026-B1-06-Report.pdf).
 
 | Task | Model | Validation (subject S02) | Held-out test (subject S03) |
 | --- | --- | --- | --- |
@@ -287,7 +287,7 @@ Pipeline: [`phase2/python/`](phase2/python/).
 4. STATIC or MOVING is shown only while the stable Phase 1 state is PERSON. A stream that is silent for more than 1 s, or a gap over 0.25 s, makes the system wait instead of guessing.
 5. **STOP** ends operation at any time.
 
-The dashboard is a small HTTP server on the laptop (default `0.0.0.0:8080`) that the phone polls every 250 ms.
+The dashboard is a small HTTP server on the laptop (default `0.0.0.0:8080`) that the phone polls every 250 ms. You can see the live system running in the [demo video](https://youtu.be/RaYnB9Vjulw).
 
 ## 11. Repository structure
 
@@ -297,9 +297,9 @@ The dashboard is a small HTTP server on the laptop (default `0.0.0.0:8080`) that
 ├── CITATION.cff · requirements.txt · .gitignore
 ├── docs/
 │   ├── images/                figures used in this README
-│   ├── report/                project report (to be added)
-│   ├── poster/                project poster (to be added)
-│   └── presentation/          final presentation (to be added)
+│   ├── report/                project report (PDF)
+│   ├── poster/                project poster (PDF)
+│   └── presentation/          presentation slides (PDF)
 ├── phase1/                    hardware, firmware, Phase 1 (EMPTY / PERSON)
 │   ├── firmware/
 │   │   ├── tx/                ESP-IDF project: access point + UDP sender
