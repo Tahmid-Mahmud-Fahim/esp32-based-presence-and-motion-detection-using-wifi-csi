@@ -1,0 +1,134 @@
+{
+  "motion_model_selection": {
+    "best": "random_forest",
+    "validation": {
+      "logistic_regression": {
+        "accuracy": 0.9452479338842975,
+        "balanced_accuracy": 0.9452479338842975,
+        "macro_f1": 0.9450833052348764,
+        "confusion_matrix": [
+          [
+            484,
+            0
+          ],
+          [
+            53,
+            431
+          ]
+        ]
+      },
+      "random_forest": {
+        "accuracy": 0.9628099173553719,
+        "balanced_accuracy": 0.9628099173553719,
+        "macro_f1": 0.9627870420995079,
+        "confusion_matrix": [
+          [
+            478,
+            6
+          ],
+          [
+            30,
+            454
+          ]
+        ]
+      }
+    }
+  },
+  "direct3_model_selection": {
+    "best": "logistic_regression",
+    "validation": {
+      "logistic_regression": {
+        "accuracy": 0.9859504132231405,
+        "balanced_accuracy": 0.9882920110192837,
+        "macro_f1": 0.9855506814111307,
+        "confusion_matrix": [
+          [
+            242,
+            0,
+            0
+          ],
+          [
+            0,
+            484,
+            0
+          ],
+          [
+            8,
+            9,
+            467
+          ]
+        ]
+      },
+      "random_forest": {
+        "accuracy": 0.9809917355371901,
+        "balanced_accuracy": 0.9841597796143251,
+        "macro_f1": 0.9817209596747078,
+        "confusion_matrix": [
+          [
+            242,
+            0,
+            0
+          ],
+          [
+            0,
+            483,
+            1
+          ],
+          [
+            7,
+            15,
+            462
+          ]
+        ]
+      }
+    }
+  },
+  "phase2_validation_comparison": {
+    "hierarchical": {
+      "accuracy": 0.9694214876033058,
+      "balanced_accuracy": 0.9745179063360881,
+      "macro_f1": 0.9741371141426457,
+      "confusion_matrix": [
+        [
+          242,
+          0,
+          0
+        ],
+        [
+          0,
+          478,
+          6
+        ],
+        [
+          1,
+          30,
+          453
+        ]
+      ]
+    },
+    "direct3": {
+      "accuracy": 0.9859504132231405,
+      "balanced_accuracy": 0.9882920110192837,
+      "macro_f1": 0.9855506814111307,
+      "confusion_matrix": [
+        [
+          242,
+          0,
+          0
+        ],
+        [
+          0,
+          484,
+          0
+        ],
+        [
+          8,
+          9,
+          467
+        ]
+      ]
+    }
+  },
+  "selected_deployment": "direct3",
+  "test_used": false
+}

@@ -1,0 +1,239 @@
+{
+  "selected_deployment_from_validation": "direct3",
+  "hierarchical": {
+    "window_level": {
+      "accuracy": 0.9314049586776859,
+      "balanced_accuracy": 0.9414600550964187,
+      "macro_f1": 0.9420566964640678,
+      "confusion_matrix": [
+        [
+          240,
+          1,
+          1
+        ],
+        [
+          0,
+          419,
+          65
+        ],
+        [
+          0,
+          16,
+          468
+        ]
+      ]
+    },
+    "session_level": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    "sessions": [
+      {
+        "session_id": "S03_normal_walk",
+        "label": "moving",
+        "y": 2,
+        "pred": 2,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_sit_center",
+        "label": "static",
+        "y": 1,
+        "pred": 1,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_slow_walk",
+        "label": "moving",
+        "y": 2,
+        "pred": 2,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_stand_center",
+        "label": "static",
+        "y": 1,
+        "pred": 1,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_stand_left",
+        "label": "static",
+        "y": 1,
+        "pred": 1,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_stand_right",
+        "label": "static",
+        "y": 1,
+        "pred": 1,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_walk_left_right",
+        "label": "moving",
+        "y": 2,
+        "pred": 2,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_walk_tx_rx",
+        "label": "moving",
+        "y": 2,
+        "pred": 2,
+        "windows": 121
+      },
+      {
+        "session_id": "empty_04",
+        "label": "empty",
+        "y": 0,
+        "pred": 0,
+        "windows": 121
+      },
+      {
+        "session_id": "empty_09",
+        "label": "empty",
+        "y": 0,
+        "pred": 0,
+        "windows": 121
+      }
+    ]
+  },
+  "direct3": {
+    "window_level": {
+      "accuracy": 0.9198347107438016,
+      "balanced_accuracy": 0.9331955922865013,
+      "macro_f1": 0.9227282160720732,
+      "confusion_matrix": [
+        [
+          242,
+          0,
+          0
+        ],
+        [
+          18,
+          415,
+          51
+        ],
+        [
+          13,
+          15,
+          456
+        ]
+      ]
+    },
+    "session_level": {
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          0,
+          4
+        ]
+      ]
+    },
+    "sessions": [
+      {
+        "session_id": "S03_normal_walk",
+        "label": "moving",
+        "y": 2,
+        "pred": 2,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_sit_center",
+        "label": "static",
+        "y": 1,
+        "pred": 1,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_slow_walk",
+        "label": "moving",
+        "y": 2,
+        "pred": 2,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_stand_center",
+        "label": "static",
+        "y": 1,
+        "pred": 1,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_stand_left",
+        "label": "static",
+        "y": 1,
+        "pred": 1,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_stand_right",
+        "label": "static",
+        "y": 1,
+        "pred": 1,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_walk_left_right",
+        "label": "moving",
+        "y": 2,
+        "pred": 2,
+        "windows": 121
+      },
+      {
+        "session_id": "S03_walk_tx_rx",
+        "label": "moving",
+        "y": 2,
+        "pred": 2,
+        "windows": 121
+      },
+      {
+        "session_id": "empty_04",
+        "label": "empty",
+        "y": 0,
+        "pred": 0,
+        "windows": 121
+      },
+      {
+        "session_id": "empty_09",
+        "label": "empty",
+        "y": 0,
+        "pred": 0,
+        "windows": 121
+      }
+    ]
+  }
+}

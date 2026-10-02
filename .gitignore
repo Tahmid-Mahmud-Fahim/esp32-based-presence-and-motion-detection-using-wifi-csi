@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ESP-IDF build output
+**/build/
+**/managed_components/
+sdkconfig.old
+
+# Editors and operating systems
+.vscode/
+.devcontainer/
+.idea/
+.clangd
+.DS_Store
+Thumbs.db
+*.swp

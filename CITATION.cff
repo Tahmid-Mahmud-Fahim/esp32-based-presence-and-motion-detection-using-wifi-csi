@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or dataset, please cite it as below."
+title: "Privacy-Preserving Human Presence and Motion Detection Using Wi-Fi CSI"
+type: software
+authors:
+  - given-names: "Tahmid Mahmud"
+    family-names: "Fahim"
+    affiliation: "Department of EEE, Bangladesh University of Engineering and Technology"
+  - given-names: "Abid Uz"
+    family-names: "Zaman"
+    affiliation: "Department of EEE, Bangladesh University of Engineering and Technology"
+  - given-names: "MD. Anayet Hossain"
+    family-names: "Nayeem"
+    affiliation: "Department of EEE, Bangladesh University of Engineering and Technology"
+  - given-names: "Robayet Hossen"
+    family-names: "Bapon"
+    affiliation: "Department of EEE, Bangladesh University of Engineering and Technology"
+date-released: 2026-10-02
+keywords:
+  - Wi-Fi sensing
+  - channel state information
+  - ESP32-S3
+  - human presence detection
+  - motion detection
+  - privacy-preserving sensing

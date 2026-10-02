@@ -1,0 +1,8 @@
+# Host-side Python requirements (Python 3.12+ recommended)
+numpy
+pandas
+scipy
+scikit-learn==1.9.0   # the saved .joblib models were trained with this version
+joblib
+pyserial              # serial communication with the ESP32-S3 receivers
+matplotlib            # only for phase1/python/03_compare_empty_person.py

@@ -1,0 +1,10 @@
+session_id,subject,class,instruction
+S01_slow_walk,S01,moving,Walk slowly and continuously through the sensing area; avoid long stops.
+S01_walk_left_right,S01,moving,Walk repeatedly left-to-right and right-to-left across the sensing area.
+S01_walk_tx_rx,S01,moving,"Walk repeatedly along the TX-to-RX direction and back, staying inside the sensing area."
+S02_slow_walk,S02,moving,Walk slowly and continuously through the sensing area; avoid long stops.
+S02_walk_left_right,S02,moving,Walk repeatedly left-to-right and right-to-left across the sensing area.
+S02_walk_tx_rx,S02,moving,"Walk repeatedly along the TX-to-RX direction and back, staying inside the sensing area."
+S03_slow_walk,S03,moving,Walk slowly and continuously through the sensing area; avoid long stops.
+S03_walk_left_right,S03,moving,Walk repeatedly left-to-right and right-to-left across the sensing area.
+S03_walk_tx_rx,S03,moving,"Walk repeatedly along the TX-to-RX direction and back, staying inside the sensing area."
