@@ -1,0 +1,107 @@
+{
+  "model_name": "random_forest",
+  "decision_threshold": 0.5,
+  "window_level": {
+    "accuracy": 0.9981634527089073,
+    "balanced_accuracy": 0.9958677685950413,
+    "precision_person": 0.9976442873969376,
+    "recall_person": 1.0,
+    "f1_person": 0.9988207547169812,
+    "macro_f1": 0.9973356885618101,
+    "roc_auc": 0.9999951213324616,
+    "confusion_matrix": [
+      [
+        240,
+        2
+      ],
+      [
+        0,
+        847
+      ]
+    ]
+  },
+  "session_level": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "precision_person": 1.0,
+    "recall_person": 1.0,
+    "f1_person": 1.0,
+    "macro_f1": 1.0,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        7
+      ]
+    ]
+  },
+  "sessions": [
+    {
+      "session_id": "S03_normal_walk",
+      "label": "person",
+      "y": 1,
+      "prob_person": 0.971632550268464,
+      "pred": 1
+    },
+    {
+      "session_id": "S03_sit_center",
+      "label": "person",
+      "y": 1,
+      "prob_person": 0.9641675220398396,
+      "pred": 1
+    },
+    {
+      "session_id": "S03_stand_center",
+      "label": "person",
+      "y": 1,
+      "prob_person": 0.8121386299166331,
+      "pred": 1
+    },
+    {
+      "session_id": "S03_stand_left",
+      "label": "person",
+      "y": 1,
+      "prob_person": 0.9975382671977722,
+      "pred": 1
+    },
+    {
+      "session_id": "S03_stand_right",
+      "label": "person",
+      "y": 1,
+      "prob_person": 0.9652201351142685,
+      "pred": 1
+    },
+    {
+      "session_id": "S03_stand_rxside",
+      "label": "person",
+      "y": 1,
+      "prob_person": 0.9849941370133974,
+      "pred": 1
+    },
+    {
+      "session_id": "S03_stand_txside",
+      "label": "person",
+      "y": 1,
+      "prob_person": 0.9948451770174467,
+      "pred": 1
+    },
+    {
+      "session_id": "empty_04",
+      "label": "empty",
+      "y": 0,
+      "prob_person": 0.001752670011422335,
+      "pred": 0
+    },
+    {
+      "session_id": "empty_09",
+      "label": "empty",
+      "y": 0,
+      "prob_person": 0.03864743283614694,
+      "pred": 0
+    }
+  ]
+}

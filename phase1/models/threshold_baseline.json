@@ -1,0 +1,25 @@
+{
+  "method": "single-feature threshold baseline",
+  "score_feature": "cross_baseline_absmean_average",
+  "decision_rule": "PERSON if cross_baseline_absmean_average >= threshold",
+  "threshold": 0.022511673,
+  "validation": {
+    "accuracy": 0.9320477502295684,
+    "balanced_accuracy": 0.9504132231404959,
+    "precision_person": 0.9948783610755442,
+    "recall_person": 0.9173553719008265,
+    "f1_person": 0.9545454545454546,
+    "macro_f1": 0.91,
+    "roc_auc": 0.9739625513479758,
+    "confusion_matrix": [
+      [
+        238,
+        4
+      ],
+      [
+        70,
+        777
+      ]
+    ]
+  }
+}

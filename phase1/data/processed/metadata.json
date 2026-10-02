@@ -1,0 +1,67 @@
+{
+  "fs_hz": 25.0,
+  "window_s": 2.0,
+  "requested_step_s": 0.5,
+  "feature_count": 31,
+  "baseline_source": "TRAIN EMPTY sessions only",
+  "train_empty_sessions": [
+    "empty_01",
+    "empty_03",
+    "empty_05",
+    "empty_06",
+    "empty_08"
+  ],
+  "split_counts": {
+    "train": {
+      "windows": 1452,
+      "empty_windows": 605,
+      "person_windows": 847,
+      "sessions": 12
+    },
+    "val": {
+      "windows": 1089,
+      "empty_windows": 242,
+      "person_windows": 847,
+      "sessions": 9
+    },
+    "test": {
+      "windows": 1089,
+      "empty_windows": 242,
+      "person_windows": 847,
+      "sessions": 9
+    }
+  },
+  "feature_names": [
+    "rx1_mean_profile_mean",
+    "rx1_mean_profile_std",
+    "rx1_mean_profile_median",
+    "rx1_temporal_std_mean",
+    "rx1_temporal_std_median",
+    "rx1_temporal_std_max",
+    "rx1_temporal_absdiff_mean",
+    "rx1_temporal_diff_std",
+    "rx1_baseline_abs_mean",
+    "rx1_baseline_abs_median",
+    "rx1_baseline_abs_max",
+    "rx1_baseline_rmse",
+    "rx1_baseline_corr",
+    "rx2_mean_profile_mean",
+    "rx2_mean_profile_std",
+    "rx2_mean_profile_median",
+    "rx2_temporal_std_mean",
+    "rx2_temporal_std_median",
+    "rx2_temporal_std_max",
+    "rx2_temporal_absdiff_mean",
+    "rx2_temporal_diff_std",
+    "rx2_baseline_abs_mean",
+    "rx2_baseline_abs_median",
+    "rx2_baseline_abs_max",
+    "rx2_baseline_rmse",
+    "rx2_baseline_corr",
+    "cross_baseline_absmean_difference",
+    "cross_baseline_absmean_average",
+    "cross_baseline_absmean_max",
+    "cross_motion_absdiff_average",
+    "cross_motion_absdiff_max"
+  ]
+}

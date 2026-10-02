@@ -1,0 +1,46 @@
+{
+  "selection_rule": "highest validation macro-F1, balanced accuracy tie-break",
+  "test_set_used_for_selection": false,
+  "best_model": "random_forest",
+  "decision_threshold": 0.5,
+  "validation_results": {
+    "logistic_regression": {
+      "accuracy": 0.9972451790633609,
+      "balanced_accuracy": 0.9982290436835891,
+      "precision_person": 1.0,
+      "recall_person": 0.9964580873671782,
+      "f1_person": 0.9982259018332348,
+      "macro_f1": 0.9960328687810938,
+      "roc_auc": 0.9999658493272318,
+      "confusion_matrix": [
+        [
+          242,
+          0
+        ],
+        [
+          3,
+          844
+        ]
+      ]
+    },
+    "random_forest": {
+      "accuracy": 0.9990817263544536,
+      "balanced_accuracy": 0.999409681227863,
+      "precision_person": 1.0,
+      "recall_person": 0.9988193624557261,
+      "f1_person": 0.9994093325457767,
+      "macro_f1": 0.9986737384378368,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          242,
+          0
+        ],
+        [
+          1,
+          846
+        ]
+      ]
+    }
+  }
+}
